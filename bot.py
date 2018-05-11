@@ -161,7 +161,7 @@ async def on_message(message):
             del tmp1
 
             embed = discord.Embed(
-                title="UHC REPORT",
+                title="",
                 color=COR,
                 description=""
             )
