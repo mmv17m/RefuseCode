@@ -6,8 +6,6 @@ import datetime
 import sys
 import io
 import os
-import secreto
-
 
 client = discord.Client()
 testmsgid = None
