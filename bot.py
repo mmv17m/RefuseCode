@@ -161,18 +161,13 @@ async def on_message(message):
             del tmp1
 
             embed = discord.Embed(
-                title="",
+                title="UHC REPORT",
                 color=COR,
                 description=""
             )
             embed.set_author(
-                name="UHC REPORT",
+                name=message.author.name,
                 icon_url=message.author.avatar_url
-            )
-            embed.add_field(
-                name="Autor",
-                value=message.author.name,
-                inline=False
             )
             embed.add_field(
                 name="Suspeito",
