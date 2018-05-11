@@ -285,7 +285,7 @@ async def on_message(message):
             description=(" ".join(args[1:]))
         )
         embed.set_author(
-            name="RedeByte"
+            name="📢 Anúncio"
         )
         embed.set_thumbnail(
             url=message.server.icon_url
